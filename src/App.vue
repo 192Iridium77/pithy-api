@@ -1,9 +1,14 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div id="menu">
-    <div>Clients</div>
-    <div>Rooms</div>
+  <div>
+    <div id="menu">
+      <router-link to="/users">Users</router-link>
+      <router-link to="/rooms">Rooms</router-link>
+    </div>
+    <main>
+      <router-view></router-view>
+    </main>
   </div>
 </template>
 

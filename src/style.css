@@ -5,3 +5,9 @@ body {
 #app {
   width: 100%;
 }
+
+a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
