@@ -3,6 +3,7 @@ import { useRoute } from "vue-router";
 import { ref, onMounted } from "vue";
 import roomsData from "../data/rooms";
 import { Room } from "../types";
+import Card from "../components/Card.vue";
 
 let room = ref<Room>();
 
@@ -22,10 +23,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
-    <div v-if="room">
+  <div class="center">
+    <Card v-if="room">
       <h1>{{ room.name }}</h1>
-    </div>
+    </Card>
     <div v-else>Not found.</div>
   </div>
 </template>

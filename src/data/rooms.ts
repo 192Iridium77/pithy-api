@@ -3,11 +3,11 @@ import { Room } from "../types";
 const sessions: Room[] = [
   {
     id: "coolRoom",
-    name: "CoolRoom",
+    name: "Cool",
   },
   {
     id: "emptyRoom",
-    name: "EmptyChat",
+    name: "Empty",
   },
 ];
 

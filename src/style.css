@@ -11,3 +11,11 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+  gap: 1rem;
+}
