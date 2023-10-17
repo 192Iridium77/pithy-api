@@ -24,4 +24,8 @@
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+a {
+  color: white;
+}
 </style>
